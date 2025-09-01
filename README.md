@@ -12,8 +12,8 @@ Getting Started
 
 1. Clone or download this repo
     ```bash
-    git clone <your-repo-url>
-    cd attendance-frontend
+    git clone <https://github.com/RajVeer36399/frontend-task>
+    cd frontend-task
 
 2. Install dependencies and plugins
     npm install axios
@@ -23,7 +23,7 @@ Getting Started
     npm run dev
 
 4. Login
-    Open http://localhost:5174/login (5173 is busy because I had to re-run everything)
+    Open http://localhost:5173/login 
     Enter any non-empty email and password → click Sign In.
     You’ll be redirected to the Student List Page.
 
