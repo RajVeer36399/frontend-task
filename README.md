@@ -10,45 +10,45 @@ It includes:
 
 Getting Started
 
-1. Clone or download this repo
+**Clone or download this repo**
    
-    ```bash
-    git clone <https://github.com/RajVeer36399/frontend-task>
-    cd frontend-task
+```bash
+git clone <https://github.com/RajVeer36399/frontend-task>
+cd frontend-task
 
-3. Install dependencies and plugins
+**Install dependencies and plugins**
    
-    a. npm install axios
-    b. npm install react-router-dom
+a. npm install axios
+b. npm install react-router-dom
+    
+**Run the project in development mode**
+   
+a. npm run dev
 
-4. Run the project in development mode
+**Login**
    
-    a. npm run dev
+a. Open http://localhost:5173/login 
+b. Enter any non-empty email and password → click Sign In.
+c. You’ll be redirected to the Student List Page.
 
-5. Login
+**Mark Attendance**
    
-    a. Open http://localhost:5173/login 
-    b. Enter any non-empty email and password → click Sign In.
-    c. You’ll be redirected to the Student List Page.
+a. The student list is seeded automatically (from src/services/mock.js).
+b. Each student has a Present/Absent toggle.
+c. Pick a date and click Save.
+d. Attendance is stored in localStorage.
 
-6. Mark Attendance
+**Features**
    
-    a. The student list is seeded automatically (from src/services/mock.js).
-    b. Each student has a Present/Absent toggle.
-    c. Pick a date and click Save.
-    d. Attendance is stored in localStorage.
+a. Frontend-only implementation (no backend required).
+b. Dummy login system with React Context.
+c. Student list fetched from mock localStorage API.
+d. Attendance saving persists in localStorage.
+e. Fully reusable UI components.
+f. Ready to switch to a real backend by changing .env.
 
-7. Features
+**Notes**
    
-    a. Frontend-only implementation (no backend required).
-    b. Dummy login system with React Context.
-    c. Student list fetched from mock localStorage API.
-    d. Attendance saving persists in localStorage.
-    e. Fully reusable UI components.
-    f. Ready to switch to a real backend by changing .env.
-
-8. Notes
-   
-    a. This app runs entirely in the browser with localStorage for persistence.
-    b. If you clear your browser storage, students/attendance data will reset.
-    c. You can extend it by adding attendance summary charts or connecting to a real backend.
+a. This app runs entirely in the browser with localStorage for persistence.
+b. If you clear your browser storage, students/attendance data will reset.
+c. You can extend it by adding attendance summary charts or connecting to a real backend.
