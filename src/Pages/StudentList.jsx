@@ -3,7 +3,7 @@ import Card from '../Components/Card'
 import Table from '../Components/Table'
 import Toggle from '../Components/Toggle'
 import Button from '../Components/Button'
-import { apiGetStudents, apiSubmitAttendance } from '../services/api'
+import { apiGetStudents, apiSubmitAttendance } from '../Services/Api'
 
 function formatDateInput(date){
   const d = new Date(date)
@@ -85,3 +85,4 @@ export default function StudentList(){
     </div>
   )
 }
+
