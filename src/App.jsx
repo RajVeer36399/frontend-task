@@ -1,10 +1,10 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
-import Login from './pages/Login'
-import StudentList from './pages/StudentList'
-import Summary from './pages/Summary'
-import NotFound from './pages/NotFound'
-import Navbar from './components/Navbar'
-import { useAuth } from './context/AuthContext'
+import Login from './Pages/Login'
+import StudentList from './Pages/StudentList'
+import Summary from './Pages/Summary'
+import NotFound from './Pages/NotFound'
+import Navbar from './Components/Navbar'
+import { useAuth } from './Context/AuthContext'
 
 function ProtectedRoute({ children }){
   const { user } = useAuth()
