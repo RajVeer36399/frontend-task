@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import Card from '../Components/Card'
-import { apiGetSummary } from '../services/api'
+import { apiGetSummary } from '../Services/Api'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts'
 
 export default function Summary(){
@@ -41,3 +41,4 @@ export default function Summary(){
     </div>
   )
 }
+
